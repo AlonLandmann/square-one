@@ -13,8 +13,8 @@ export default function Navbar() {
           <div>square</div><i className='bi bi-1-square'></i><div>one</div>
         </div>
         <nav className={css.navLinks}>
+          <div>Courses</div>
           <div>User Guide</div>
-          <div>My Courses</div>
           <div>Feedback</div>
         </nav>
         {!user &&
